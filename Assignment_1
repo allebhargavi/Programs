@@ -1,0 +1,120 @@
+/*program to get character at given string*/
+public static void main(String[] args)
+		    {
+		        String s = "Ramayan";
+		        System.out.println("Original String = " + s);
+		        int index1 = s.charAt(2);
+		        int index2 = s.charAt(4);
+		        System.out.println("The character at position 2 is " +
+		            (char)index1);
+		        System.out.println("The character at position 4 is " +
+		            (char)index2);
+		    }
+		}
+OUTPUT:
+The character at position 2 is m
+The character at position 4 is y
+
+/*program to convert all the words first letter into capital for given String*/
+public class Stringcapital {
+		public static void main(String[] args) {
+			String s =("i love bagavath geeta");
+			char[] charArray = s.toCharArray();
+			boolean foundSpace = true;
+			for(int i = 0; i < charArray.length;i++)
+			{
+				if (Character . isLetter(charArray[i]))
+				{
+					if(foundSpace)
+					{
+						charArray[i] = Character . toUpperCase(charArray[i]);
+						foundSpace = false;
+					}
+				}
+				else 
+				{
+					foundSpace = true;
+				}
+			}
+				s = String.valueOf(charArray);
+				System.out.println("s:"+ s);
+			}
+	}
+OUTPUT:
+s:I Love Bagavath Geeta
+/*program to  test if a given string contains the specified sequence of char values….match()*/
+public class Matchstring {
+	public static void main(String[] args) {
+		String a = "balu";
+		String b = "balu";
+		System.out.println(a.matches(b));
+	}
+
+}
+OUTPUT:
+false
+/*string ends with contents of another string*/
+public class Endsstring {
+	public static void main(String[] args) {
+		String s = "madhusri";
+		String b = "sri";
+		System.out.println(s.endsWith(b));
+	}
+}
+OUTPUT:
+true
+/*Count the number of words present in the given string*/
+public class Noof {
+		public static void main(String[] args) {
+			String s="i am learning java";
+			System.out.println(s.length());
+		}
+
+	}
+OUTPUT:
+18
+/*Print the capital letters from string*/
+public class UppercaseString {
+	public static void main(String[] args) {
+		String s = "i am bhargavi";
+		System.out.println(s.toUpperCase());
+
+	}
+}
+OUTPUT:
+I AM BHARGAVI
+/*convert second occurence of letter into capital*/
+public class Secondletter {
+		public static void main(String[] args) {
+			String s="BVRIT College";
+			 System.out.println(s.replace("ll","lL" ));
+
+
+		  }
+		}
+OUTPUT:
+true
+/*Convert the word from small letter to capital letter word in  given  String*/
+
+public class Caps {
+		public static void main(String[] args) {
+			String s="b.v.raju college";
+			System.out.println(s.replace("raju","RAJU"));
+		}
+
+	}
+OUTPUT:
+true
+
+
+    
+
+
+
+
+
+
+
+
+    
+    
