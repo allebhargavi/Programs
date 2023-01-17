@@ -1,0 +1,175 @@
+1. /* program to get a number from the user and print whether it is positive or negative*/
+
+public class Postiveornegative {
+	public static void main(String[] args) {
+		int a = -25;
+		if(a > 0)
+		{
+			System.out.println(a+ "is a positive number");
+			
+		}
+		else
+		{
+			System.out.println(a+ "is a negative number");
+		}
+		
+	}
+
+}
+OUTPUT:
+-25 is a negative number
+2. /* print the greatest number*/
+
+public class Greatestnumber {
+	public static void main(String[] args) {
+		int a = 25;
+		int b = 78;
+		int c = 87;
+		System.out.println("Input the number:"+a);
+		System.out.println("Input the number:"+b);
+		System.out.println("Input the number:"+c);
+		if (a >= b && a >= c)
+			System.out.println("the greatest:"+a);
+		else if (b >= a && b >= c)
+			System.out.println("the greatest:"+b);
+		else
+			System.out.println("the greatest:"+c);
+	}
+}
+OUTPUT:
+Input the number:87
+the greatest:87
+
+3. /*name of the weekday*/
+public class Weekday {
+		public static void main(String[] args) {
+			int a=4;
+                System.out.println("input number is:"+4);
+		 switch (a) {
+			case 1:
+				System.out.println("monday");
+				break;
+			case 2:
+				System.out.println("tuesday");
+				break;
+			case 3:
+				System.out.println("wednesday");
+				break;
+			case 4:
+				System.out.println("thursday");
+				break;
+			case 5:
+				System.out.println("friday");
+				break;
+			case 6:
+				System.out.println("saturday");
+				break;
+			default:
+				System.out.println("invalid a");
+				break;
+			}
+		}
+	}
+OUTPUT:
+input number is:4
+thursday
+4. /* to display the first 10 natural numbers*/
+
+public class Naturalnumbers {
+		public static void main(String[] args) {
+			System.out.println("the first 10 natural numbers are");
+			for(int i=1;i<=10;i++) {
+				System.out.println(i);
+			}
+		}
+
+}
+OUTPUT:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+5. /*sum and average*/
+import java.util.*;
+public class Sumnavg {
+	public static void main(String[] args) {
+				Scanner sc = new Scanner(System.in);
+				System.out.println("input the 5 numbers:");
+				int v = sc.nextInt();
+				int w = sc.nextInt();
+				int x = sc.nextInt();
+				int y = sc.nextInt();
+				int z = sc.nextInt();
+				int sum = v + w + x + y + z;
+				System.out.println("The sum of 5 number is:"+sum);
+				int avg = sum / 5;
+				System.out.println("The Average is:"+avg);
+			}
+
+		}
+OUTPUT:
+input the 5 numbers:
+1 2 3 4 5
+The sum of 5 number is:15
+The Average is:3
+6. /*product information*/
+import java.util.*;
+public class Productdetails {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("product_id:");
+		int product_id = sc.nextInt();
+		System.out.println("product_name:");
+		String product_name = sc.next();
+		System.out.println("product_price:");
+		int product_price = sc.nextInt();
+		System.out.println("quantity:");
+		int product_quantity = sc.nextInt();
+		System.out.println("category:");
+		String product_category = sc.next();
+		System.out.println("brand:");
+		String product_brand = sc.next();
+		System.out.println("product_id:" + product_id);
+		System.out.println("product_name:" + product_name);
+		System.out.println("product_price:" + product_price);
+		System.out.println("product quantity:" + product_quantity);
+		System.out.println("product_category:" + product_category);
+		System.out.println("product_brand:" + product_brand);
+
+	}
+}
+OUTPUT:
+product_id:
+123
+product_name:
+AC
+product_price:
+145000
+quantity:
+1
+category:
+Electronic device
+brand:
+product_id:123
+product_name:AC
+product_price:145000
+product quantity:1
+product_category:Electronic
+product_brand:device
+
+
+
+
+
+
+
+
+
+
+
