@@ -1,4 +1,4 @@
-/*program to get character at given string*/
+1. /*program to get character at given string*/
 public static void main(String[] args)
 		    {
 		        String s = "Ramayan";
@@ -15,7 +15,7 @@ OUTPUT:
 The character at position 2 is m
 The character at position 4 is y
 
-/*program to convert all the words first letter into capital for given String*/
+2. /*program to convert all the words first letter into capital for given String*/
 public class Stringcapital {
 		public static void main(String[] args) {
 			String s =("i love bagavath geeta");
@@ -42,7 +42,7 @@ public class Stringcapital {
 	}
 OUTPUT:
 s:I Love Bagavath Geeta
-/*program to  test if a given string contains the specified sequence of char values….match()*/
+3. /*program to  test if a given string contains the specified sequence of char values….match()*/
 public class Matchstring {
 	public static void main(String[] args) {
 		String a = "balu";
@@ -53,7 +53,7 @@ public class Matchstring {
 }
 OUTPUT:
 false
-/*string ends with contents of another string*/
+4./*string ends with contents of another string*/
 public class Endsstring {
 	public static void main(String[] args) {
 		String s = "madhusri";
@@ -63,7 +63,7 @@ public class Endsstring {
 }
 OUTPUT:
 true
-/*Count the number of words present in the given string*/
+5. /*Count the number of words present in the given string*/
 public class Noof {
 		public static void main(String[] args) {
 			String s="i am learning java";
@@ -73,7 +73,7 @@ public class Noof {
 	}
 OUTPUT:
 18
-/*Print the capital letters from string*/
+6. /*Print the capital letters from string*/
 public class UppercaseString {
 	public static void main(String[] args) {
 		String s = "i am bhargavi";
@@ -83,7 +83,7 @@ public class UppercaseString {
 }
 OUTPUT:
 I AM BHARGAVI
-/*convert second occurence of letter into capital*/
+7. /*convert second occurence of letter into capital*/
 public class Secondletter {
 		public static void main(String[] args) {
 			String s="BVRIT College";
@@ -94,7 +94,7 @@ public class Secondletter {
 		}
 OUTPUT:
 true
-/*Convert the word from small letter to capital letter word in  given  String*/
+8. /*Convert the word from small letter to capital letter word in  given  String*/
 
 public class Caps {
 		public static void main(String[] args) {
